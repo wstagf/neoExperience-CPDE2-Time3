@@ -1,0 +1,33 @@
+.page {
+  height: calc(100vh - 100px);
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.container {
+  background-color: rgba(167, 210, 255, 0.801);
+  width: calc(80vw);
+  height: 100px;
+  padding: 20px;
+}
+
+.container form {
+  padding-top: 15px;
+  padding-left: 5vw;
+}
+
+.container form input {
+  height: 60px;
+  width: 80%;
+  padding-left: 20px;
+}
+
+.btn {
+  text-align: center;
+  color: #fff;
+  min-width: 80px;
+  display: inline;
+  height: 50px;
+  padding: 14px;
+  font-size: 20px;
+  background-color: #024f9e;
+}
