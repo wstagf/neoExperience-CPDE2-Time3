@@ -16,5 +16,21 @@
   flex: auto;
   height: 50px;
   width: 150px;
-  background: red;
+  font-family: "Itim", cursive;
+}
+
+ul {
+  display: block;
+  margin: 5px;
+  height: 40px;
+}
+
+ul li {
+  display: inline;
+  margin: 0px 20px;
+}
+
+ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
