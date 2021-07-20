@@ -1,0 +1,22 @@
+.page {
+  height: calc(100vh - 100px);
+}
+
+.container {
+  background-color: rgba(167, 210, 255, 0.801);
+  padding: calc(4vw);
+  margin: 10vh;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Itim", cursive;
+  text-transform: capitalize;
+}
+
+.item {
+  width: 150px;
+  margin: 10px;
+}

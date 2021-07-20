@@ -15,6 +15,7 @@ import { ClubComponent } from './user/club/club.component';
 import { PerfilComponent } from './place/perfil/perfil.component';
 import { ActivitysComponent } from './place/activitys/activitys.component';
 import { WalletComponent } from './place/wallet/wallet.component';
+import { ExperienceDetailComponent } from './usuario/experience-detail/experience-detail.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { WalletComponent } from './place/wallet/wallet.component';
     PerfilComponent,
     ActivitysComponent,
     WalletComponent,
+    ExperienceDetailComponent,
   ],
   imports: [
     BrowserModule,
