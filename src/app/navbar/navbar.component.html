@@ -6,21 +6,21 @@
             <li routerLink="" routerLinkActive="active">Home</li>
             <li routerLink="/facaparte" routerLinkActive="active">Faça Parte</li>
             <li routerLink="/acesso" routerLinkActive="active">Acessar Portal</li>
-            <!-- <li (click)="portalAcess('user')">Acessar Portal Usuario</li>
-            <li (click)="portalAcess('place')">Acessar Portal Estabelecimento</li> -->
+            <li (click)="portalAcess('user')">Acessar Portal Usuario</li>
+            <li (click)="portalAcess('place')">Acessar Portal Estabelecimento</li>
         </ul>
 
         <ul fxLayout="row" fxLayoutAlign="center center" *ngIf="menuVisible == 2">
-            <li>Experiência</li>
-            <li>Controle da Assinatura</li>
-            <li>Meus Pontos</li>
+            <li routerLink="/usuario/experiencias" routerLinkActive="active">Experiência</li>
+            <li routerLink="/usuario/controle" routerLinkActive="active">Controle da Assinatura</li>
+            <li routerLink="/usuario/pontos" routerLinkActive="active">Meus Pontos</li>
             <li (click)="logout()">Sair</li>
         </ul>
 
         <ul fxLayout="row" fxLayoutAlign="center center" *ngIf="menuVisible == 3">
-            <li>Perfil</li>
-            <li>Atividades</li>
-            <li>Cobrança</li>
+            <li routerLink="/estabelecimento/perfil" routerLinkActive="active">Perfil</li>
+            <li routerLink="/estabelecimento/atividades" routerLinkActive="active">Atividades</li>
+            <li routerLink="/estabelecimento/carteira" routerLinkActive="active">Cobrança</li>
             <li (click)="logout()">Sair</li>
         </ul>
 
