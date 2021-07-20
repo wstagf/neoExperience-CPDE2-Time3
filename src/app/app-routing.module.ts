@@ -1,3 +1,4 @@
+import { ExperienceInformationComponent } from './user/experience-information/experience-information.component';
 import { ExperienceDetailComponent } from './usuario/experience-detail/experience-detail.component';
 import { PerfilComponent } from './place/perfil/perfil.component';
 import { ActivitysComponent } from './place/activitys/activitys.component';
@@ -25,6 +26,10 @@ const routes: Routes = [
        {
           path: 'experiencias/:target',
           component: ExperienceDetailComponent
+      },
+        {
+          path: 'experiencias/:target/:info',
+          component: ExperienceInformationComponent
       },
       {
         path: 'controle',

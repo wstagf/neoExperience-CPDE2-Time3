@@ -16,6 +16,7 @@ import { PerfilComponent } from './place/perfil/perfil.component';
 import { ActivitysComponent } from './place/activitys/activitys.component';
 import { WalletComponent } from './place/wallet/wallet.component';
 import { ExperienceDetailComponent } from './usuario/experience-detail/experience-detail.component';
+import { ExperienceInformationComponent } from './user/experience-information/experience-information.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ExperienceDetailComponent } from './usuario/experience-detail/experienc
     ActivitysComponent,
     WalletComponent,
     ExperienceDetailComponent,
+    ExperienceInformationComponent,
   ],
   imports: [
     BrowserModule,
