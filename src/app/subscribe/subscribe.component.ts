@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-subscribe',
+  selector: 'cpde2-subscribe',
   templateUrl: './subscribe.component.html',
   styleUrls: ['./subscribe.component.css']
 })
