@@ -1,8 +1,9 @@
 <div class="page" fxLayout="row" fxLayoutAlign="center center">
     <div class="container">
         <form>
-            <input type="text" placeholder="Qual experiência turística você deseja ?">
-            <span class="btn">Descobrir</span>
+            <input name="experience" type="text" placeholder="Qual experiência turística você deseja ?"
+                [(ngModel)]="experienceDetail">
+            <span class="btn" (click)="gotoExperienceDetail()">Descobrir</span>
         </form>
     </div>
 </div>
