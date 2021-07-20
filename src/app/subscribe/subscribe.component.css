@@ -1,0 +1,67 @@
+.page {
+  height: calc(100vh - 100px);
+}
+
+.container {
+  margin: 10vh;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.container .container-col {
+  margin: 0px 5vw;
+  background-color: rgba(167, 210, 255, 0.801);
+  padding: calc(2vw);
+  width: calc(30vw);
+  min-height: calc(70vh);
+  text-align: center;
+}
+
+.contentCenter {
+  margin: 2vw 0px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Itim", cursive;
+  margin-bottom: 20px;
+}
+
+.container p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.lineForm {
+  display: block;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.lineForm label {
+  margin: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  min-width: 80px;
+  border-radius: 5px;
+}
+
+.politica {
+  background: #30a200;
+}
+
+.subscribe {
+  background-color: #024f9e;
+}

@@ -1,11 +1,11 @@
 .container {
-  height: 120px;
-  background-color: #fff;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 
   margin: 0 20px 0 20px;
   background-image: url("../../assets/logo.png");
@@ -28,6 +28,7 @@ ul {
 ul li {
   display: inline;
   margin: 0px 20px;
+  font-size: 18px;
 }
 
 ul li:hover {
