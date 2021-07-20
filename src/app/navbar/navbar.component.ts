@@ -9,10 +9,25 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
   public menuVisible = 1;
   constructor(
-      private router: Router
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit(): void {
+    this.router.events.subscribe((url: any) => {
+      const urlString = url.url;
+      if (urlString !== '/' && urlString != null) {
+        const urlArray = urlString.split('/');
+        if (urlArray.length > 0) {
+          console.log(urlArray);
+          if (urlArray[1] === 'usuario' ) {
+            this.menuVisible = 2;
+          } else if (urlArray[1] === 'estabelecimento' ) {
+            this.menuVisible = 3;
+          }
+        }
+      }
+     });
   }
 
   portalAcess(param: string): void {
