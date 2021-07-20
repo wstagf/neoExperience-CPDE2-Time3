@@ -50,5 +50,9 @@ export class ExperienceDetailComponent implements OnInit {
      this.selectedExperience = this.route.snapshot.url[1].path;
    }
 
+  gotoExperienceInfo(info: number): void {
+    this.router.navigateByUrl('/usuario/experiencias/' + this.selectedExperience + '/' + (info));
+  }
+
 
 }
